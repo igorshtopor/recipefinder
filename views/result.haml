@@ -1,0 +1,8 @@
+- recipes.each do |recipe|
+  %li.media.my-3
+    %img.mr-3{:alt => 'Dish image', :src => recipe.thumbnail}/
+    .media-body
+      %h5.mt-0.mb-1
+        %a{href: recipe.href}
+          = recipe.title
+      = recipe.ingredients

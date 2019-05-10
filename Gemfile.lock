@@ -1,0 +1,53 @@
+GIT
+  remote: git://github.com/sinatra/sinatra.git
+  revision: 1aa64f9858edc3f93cc8d46e26f724c1ae103b1c
+  specs:
+    rack-protection (2.0.5)
+      rack
+    sinatra (2.0.5)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.5)
+      tilt (~> 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.6.0)
+      public_suffix (>= 2.0.2, < 4.0)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    haml (5.0.4)
+      temple (>= 0.8.0)
+      tilt
+    http (4.1.1)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (2.1.1)
+    http_parser.rb (0.6.0)
+    mustermann (1.0.3)
+    public_suffix (3.0.3)
+    rack (2.0.7)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    temple (0.8.1)
+    tilt (2.0.9)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  haml
+  http
+  rack-test
+  sinatra!
+
+BUNDLED WITH
+   2.0.1

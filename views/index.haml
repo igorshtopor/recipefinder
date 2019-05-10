@@ -1,0 +1,14 @@
+%link{crossorigin: 'anonymous', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', integrity: 'sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm', rel: 'stylesheet'}/
+%link{rel: 'stylesheet', type: 'text/css', href: 'index.css' }/
+%script{src: 'results-loader.js', :type => 'text/javascript'}
+
+%nav.navbar.navbar-dark.bg-dark
+  %a.navbar-brand{ href: '#' }
+    Recipe finder - Find a dish of your taste
+
+.div.p-5
+  .input-group.mb-3
+    %input#dish.form-control{'aria-describedby' => 'button-addon', 'aria-label' => "Enter a dish name", :placeholder => "Enter a dish name", :type => 'text'}>
+    .input-group-append
+      %button#button-addon.btn.btn-outline-secondary{:type => "button"} Find
+  %ul#result-list.list-unstyled

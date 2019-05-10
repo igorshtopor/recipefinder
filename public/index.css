@@ -1,0 +1,12 @@
+#result-list > .media > img {
+  max-height: 100px;
+  max-width: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+#dish:focus {
+  outline: none;
+  border-color: #495057;
+}
+
