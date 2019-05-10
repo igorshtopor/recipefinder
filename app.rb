@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'json'
-require './lib/recipe_client'
-require './lib/recipe_presenter'
+require File.expand_path '../lib/recipe_client', __FILE__
+require File.expand_path '../lib/recipe_presenter', __FILE__
 
 get '/' do
   haml :index
